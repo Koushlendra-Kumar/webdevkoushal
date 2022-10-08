@@ -5,7 +5,7 @@ function Header() {
     <div>
       <nav className="flex items-center justify-between flex-wrap bg-white shadow-lg p-6">
         <div className="flex items-center flex-shrink-0 text-black mr-6">
-            <span className="font-black text-xl tracking-tight">KK's</span>
+            <span className="font-black text-2xl tracking-tight">KK's</span>
         </div>
         <div className="block lg:hidden">
             <button className="flex items-center px-3 py-2 border rounded text-black border-black hover:text-white hover:bg-black hover:border-white">
@@ -14,18 +14,18 @@ function Header() {
         </div>
         <div className="w-full block lg:flex lg:items-center lg:w-auto">
             <div className="text-sm lg:flex-grow">
-                <a href="#responsive-header" className="block mt-4 lg:inline-block lg:mt-0 font-medium text-black hover:text-cyan-400 mr-4">
+                <a href="#responsive-header" className="block mt-4 lg:inline-block lg:mt-0 font-medium text-base text-black hover:text-cyan-400 mr-4">
                     Skills
                 </a>
-                <a href="#responsive-header" className="block mt-4 lg:inline-block lg:mt-0 font-medium text-black hover:text-cyan-400 mr-4">
+                <a href="#responsive-header" className="block mt-4 lg:inline-block lg:mt-0 font-medium text-base text-black hover:text-cyan-400 mr-4">
                     Projects
                 </a>
-                <a href="#responsive-header" className="block mt-4 lg:inline-block lg:mt-0 font-medium text-black hover:text-cyan-400 mr-4">
+                <a href="#responsive-header" className="block mt-4 lg:inline-block lg:mt-0 font-medium text-base text-black hover:text-cyan-400 mr-4">
                     Blog
                 </a>
             </div>
             <div>
-            <a href="#Newsletter" className="inline-block text-sm px-4 py-2 leading-none border rounded font-medium text-black border-black hover:border-red-500 hover:text-white hover:bg-red-500 mt-4 lg:mt-0">Newletter</a>
+            <a href="#Newsletter" className="inline-block text-sm px-4 py-2 leading-none border rounded font-medium text-base text-black border-black hover:border-red-500 hover:text-white hover:bg-red-500 mt-4 lg:mt-0">Newletter</a>
             </div>
         </div>
         </nav>
