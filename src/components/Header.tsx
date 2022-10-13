@@ -23,6 +23,9 @@ function Header() {
                 <a href="#responsive-header" className="block mt-4 lg:inline-block lg:mt-0 font-medium text-base text-black hover:text-cyan-400 mr-4">
                     Blog
                 </a>
+                <a href="#contact" className="block mt-4 lg:inline-block lg:mt-0 font-medium text-base text-black hover:text-cyan-400 mr-4">
+                    Contact
+                </a>
             </div>
             <div>
             <a href="#Newsletter" className="inline-block text-sm px-4 py-2 leading-none border rounded font-medium text-base text-black border-black hover:border-red-500 hover:text-white hover:bg-red-500 mt-4 lg:mt-0">Newletter</a>
