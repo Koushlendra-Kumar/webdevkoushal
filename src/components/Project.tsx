@@ -1,21 +1,20 @@
 import React from 'react';
+import logo from '../images/logo192.png';
 
 function Project() {
   return (
-    <div className="max-w-xl mx-auto m-10 pt-10 xl:max-w-none xl:ml-0 xl:mr-[15.5rem] xl:pr-16 lg:flex">
-        <div className="project-screenshot h-48 lg:h-auto lg:w-48 flex-none bg-cover lg:rounded-t-none lg:rounded-l text-center overflow-hidden"></div>
-        <div className="bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
-            <div className="mb-8">
-                <div className="text-gray-900 font-bold text-xl mb-2">Can coffee make you a better developer?</div>
-                <p className="text-gray-700 text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
-            </div>
-            <div className="flex items-center justify-around">
-                <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
-                    Preview
-                </button>
-                <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
-                    Source Code
-                </button>
+    <div className="flex justify-center mt-6">
+        <div className="rounded-lg shadow-lg bg-white max-w-sm">
+            <a href="#!">
+            <img className="rounded-t-lg" src={logo} alt=""/>
+            </a>
+            <div className="p-6">
+                <h5 className="text-gray-900 text-xl font-medium mb-2">Card title</h5>
+                <p className="text-gray-700 text-base mb-4">
+                    Some quick example text to build on the card title and make up the bulk of the card's
+                    content.
+                </p>
+                <button type="button" className=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Button</button>
             </div>
         </div>
     </div>
