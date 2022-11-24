@@ -1,4 +1,6 @@
 import React from 'react';
+import Popup from 'reactjs-popup';
+import Newsletter from './Newsletter';
 
 function Header() {
   return (
@@ -28,7 +30,11 @@ function Header() {
                 </a>
             </div>
             <div>
-            <a href="#Newsletter" className="inline-block text-sm px-4 py-2 leading-none border rounded font-medium text-base text-black border-black hover:border-red-500 hover:text-white hover:bg-red-500 mt-4 lg:mt-0">Newletter</a>
+                <Popup trigger={
+                    <button className="inline-block text-sm px-4 py-2 leading-none border rounded font-medium text-black border-black hover:border-red-500 hover:text-white hover:bg-red-500 mt-4 lg:mt-0">Newletter</button>
+                    } position='right top'>
+                    <Newsletter />
+                </Popup>
             </div>
         </div>
         </nav>
