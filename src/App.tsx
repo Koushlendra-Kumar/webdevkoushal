@@ -10,7 +10,8 @@ function App() {
     <div className="App">
       <Header />
       <Intro />
-      <Project 
+      <div className='flex w-full flex-wrap justify-around items-center'>
+        <Project 
           title='My Portfolio' 
           description='My MERN stack portfolio.' 
           sourceLink='https://github.com/Koushlendra-Kumar/portfolio-site' 
@@ -28,6 +29,8 @@ function App() {
           sourceLink='https://github.com/Koushlendra-Kumar/Modern-furniture' 
           previewLink='https://modern-furniture-production.up.railway.app/'
           />
+      </div>
+      
       <Contact />
       <Footer />
     </div>
