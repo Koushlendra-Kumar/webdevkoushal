@@ -1,12 +1,11 @@
 import React from 'react';
-import logo from '../images/projectUI.png';
 
 function Project(props: any) {
   return (
-    <div className="flex justify-center mt-6">
+    <div className="flex justify-center m-8">
         <div className="rounded-lg shadow-lg bg-white max-w-sm">
             <a href="#!" className='flex justify-center items-center'>
-            <img className="h-52 w-52 rounded-t-lg" src={logo} alt=""/>
+            <img className="rounded-t-lg" src={props.image} alt=""/>
             </a>
             <div className="p-6">
                 <h5 className="text-gray-900 text-xl font-medium mb-2">{props.title}</h5>
