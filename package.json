@@ -2,7 +2,7 @@
   "name": "portfolio-site",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://koushlendra-kumar.github.io/portfolio-site",
+  "homepage": "http://koushlendra-kumar.github.io/webdevkoushal",
   "dependencies": {
     "@types/node": "^16.11.62",
     "@types/react": "^18.0.21",
