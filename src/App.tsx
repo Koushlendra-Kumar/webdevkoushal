@@ -6,11 +6,12 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import portfolioImage from './images/portfolio.png';
 import membersImage from './images/members.png';
-import projectUI from './images/projectUI.png'
+import projectUI from './images/projectUI.png';
+import Chat from './components/Chat';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App relative">
       <Header />
       <Intro />
       <div className='flex w-full flex-wrap justify-around items-center'>
@@ -39,6 +40,7 @@ function App() {
       
       <Contact />
       <Footer />
+      <Chat />
     </div>
   );
 }
