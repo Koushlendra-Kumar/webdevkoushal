@@ -3,7 +3,7 @@ import React from 'react';
 function Intro() {
     return (
         <div className='relative max-w-lg mx-auto pt-20 sm:pt-24 lg:pt-32 p-6'>
-            <h1 className='text-slate-900 font-extrabold text-4xl sm:text-5xl lg:text-6xl tracking-tight text-center '>Hi, I'm KK,<br/> a web developer</h1>
+            <h1 className='text-slate-900 font-extrabold text-4xl sm:text-5xl lg:text-6xl tracking-tight text-center '>Hi, I'm Koushal,<br/> a web developer</h1>
             <div className='flex items-center justify-center'>
                 <svg className="fill-current h-24 w-24 m-6" width="54" height="54" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360"><title>MongoDB</title><path d="M203.77731,148.85754c-10.8147-12.762-20.13269-25.8139-22.02478-28.49224a.426.426,0,0,0-.70032.00006c-1.89172,2.6784-11.20758,15.73022-22.02191,28.49218-92.69141,118.085,14.62982,197.75507,14.62982,197.75507l.87.60461c.8136,12.32624,2.83508,30.041,2.83508,30.041H185.442s2.01282-17.63849,2.83-29.96106l.87549-.68451S296.46774,266.94257,203.77731,148.85754ZM181.404,344.88123h-.001s-4.811-4.10383-6.10962-6.16l-.01172-.22131,5.81946-128.56055a.30281.30281,0,0,1,.605,0l5.81946,128.56036-.01135.22065C186.21652,340.77625,181.404,344.88123,181.404,344.88123Z" fill="#00684a"/></svg>
             </div>
