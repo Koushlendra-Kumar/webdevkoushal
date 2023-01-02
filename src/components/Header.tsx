@@ -7,7 +7,7 @@ function Header() {
     <div>
       <nav className="flex items-center justify-between flex-wrap bg-white shadow-lg p-6">
         <div className="flex items-center flex-shrink-0 text-black mr-6">
-            <span className="font-black text-2xl tracking-tight">KK's</span>
+            <span className="font-black text-2xl tracking-tight">WevDev Koushal</span>
         </div>
         <div className="block lg:hidden">
             <button className="flex items-center px-3 py-2 border rounded text-black border-black hover:text-white hover:bg-black hover:border-white">
