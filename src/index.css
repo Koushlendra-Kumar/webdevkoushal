@@ -2,7 +2,3 @@
 @tailwind components;
 @tailwind utilities;
 
-.project-screenshot {
-  background: #fff url(./images/logo512.png) no-repeat;
-  background-size: contain;
-}
