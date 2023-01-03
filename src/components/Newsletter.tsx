@@ -2,7 +2,7 @@ import React from 'react';
 
 function Newsletter() {
     return (
-        <div className='fixed top-0 left-0 right-0 m-auto max-w-sm border border-solid border-black font-sans p-5 rounded'>
+        <div className='fixed top-0 left-0 right-0 m-auto max-w-sm border border-solid border-black font-sans p-5 rounded bg-white'>
             <div className='w-full flex justify-center items-center flex-col'>
                 <h1 className='font-bold font-serif text-2xl'>Newsletter</h1>
                 <form className='flex flex-col justify-start items-center gap-5 mt-5'>
