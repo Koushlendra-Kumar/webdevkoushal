@@ -20,7 +20,7 @@ function App() {
           image={portfolioImage}
           description='My MERN stack portfolio.' 
           sourceLink='https://github.com/Koushlendra-Kumar/portfolio-site' 
-          previewLink='https://koushlendra-kumar.github.io/portfolio-site/'
+          previewLink='https://koushlendra-kumar.github.io/webdevkoushal/'
           />
       <Project 
           title='Members Only' 
