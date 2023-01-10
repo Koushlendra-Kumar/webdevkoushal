@@ -7,7 +7,11 @@ function Header() {
     <div>
       <nav className="flex items-center justify-between flex-wrap bg-white shadow-lg p-6">
         <div className="flex items-center flex-shrink-0 text-black mr-6">
-            <span className="font-black text-2xl tracking-tight">WebDev Koushal</span>
+            <div className='grid grid-cols-2 grid-rows-2 gap-y-0.5 font-black tracking-tighter'>
+                <div className='flex justify-end items-end m-0 p-0 leading-3'>Web</div>
+                <div className='flex justify-end items-start m-0 p-0 leading-3'>Dev</div>
+                <div className='col-start-2 col-end-3 row-start-1 row-end-3 m-0 p-0 flex justify-between items-center text-3xl font-light'>Koushal</div>
+            </div>
         </div>
         <div className="block lg:hidden">
             <button className="flex items-center px-3 py-2 border rounded text-black border-black hover:text-white hover:bg-black hover:border-white">
