@@ -6,7 +6,7 @@ function Newsletter() {
         e.preventDefault();
         let data = {email: e.target[0].value};
         console.log(data);
-        fetch('https://blog-api-pro.up.railway.app/newsletter',{
+        fetch('https://blog-api-production-aa94.up.railway.app/newsletter',{
             method: 'POST',
             body: JSON.stringify(data),
             headers: {
