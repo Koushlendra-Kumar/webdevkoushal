@@ -27,7 +27,7 @@ function App() {
           image={membersImage}
           description='User authentication web app.' 
           sourceLink='https://github.com/Koushlendra-Kumar/Members-only' 
-          previewLink='https://topclub.herokuapp.com/'
+          previewLink='https://members-only-production-ad01.up.railway.app/'
           />
       <Project 
           title='Modern Furniture' 
