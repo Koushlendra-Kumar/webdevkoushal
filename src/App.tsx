@@ -9,33 +9,28 @@ import membersImage from './images/members.png';
 import projectUI from './images/projectUI.png';
 import Chat from './components/Chat';
 
+const Projects = [
+  {title: 'My Portfolio', image: portfolioImage, description: 'My MERN stack portfolio.', sourceLink: 'https://github.com/Koushlendra-Kumar/portfolio-site', previewLink: 'https://koushlendra-kumar.github.io/webdevkoushal/'},  
+  {title: 'Community Club app', image: membersImage, description: 'User authentication web app.', sourceLink: 'https://github.com/Koushlendra-Kumar/Members-only', previewLink: 'https://members-only-production-ad01.up.railway.app/'},
+  {title: 'modern Furniture', image: projectUI, description: 'Api to perform CRUD operations.', sourceLink: 'https://github.com/Koushlendra-Kumar/Modern-furniture', previewLink: 'https://modern-furniture-production.up.railway.app/'},
+]
+
 function App() {
+  const projectList = Projects.map(project => (
+    <Project 
+          title={project.title}
+          image={project.image}
+          description={project.description}
+          sourceLink={project.sourceLink}
+          previewLink={project.previewLink}
+    />
+  ))
   return (
     <div className="App relative">
       <Header />
       <Intro />
       <div className='flex w-full flex-wrap justify-around items-center'>
-        <Project 
-          title='My Portfolio' 
-          image={portfolioImage}
-          description='My MERN stack portfolio.' 
-          sourceLink='https://github.com/Koushlendra-Kumar/portfolio-site' 
-          previewLink='https://koushlendra-kumar.github.io/webdevkoushal/'
-          />
-      <Project 
-          title='Members Only' 
-          image={membersImage}
-          description='User authentication web app.' 
-          sourceLink='https://github.com/Koushlendra-Kumar/Members-only' 
-          previewLink='https://members-only-production-ad01.up.railway.app/'
-          />
-      <Project 
-          title='Modern Furniture' 
-          image={projectUI}
-          description='Api to perform CRUD operations.' 
-          sourceLink='https://github.com/Koushlendra-Kumar/Modern-furniture' 
-          previewLink='https://modern-furniture-production.up.railway.app/'
-          />
+        {projectList}
       </div>
       
       <Contact />
