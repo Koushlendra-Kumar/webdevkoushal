@@ -46,12 +46,6 @@ function Header() {
               Projects
             </a>
             <a
-              href="#responsive-header"
-              className="block mt-4 lg:inline-block lg:mt-0 font-medium text-base text-black hover:text-cyan-400 mr-4"
-            >
-              Blog
-            </a>
-            <a
               href="#contact"
               className="block mt-4 lg:inline-block lg:mt-0 font-medium text-base text-black hover:text-cyan-400 mr-4"
             >
