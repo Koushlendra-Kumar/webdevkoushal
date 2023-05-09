@@ -32,7 +32,7 @@ function Newsletter() {
           />
           <button
             type="submit"
-            className="inline-block text-sm px-4 py-2 leading-none border rounded font-medium bg-red-500 text-white hover:text-white hover:bg-red-600 hover:underline mt-4 lg:mt-0"
+            className="inline-block text-sm px-4 py-2 leading-none border rounded font-medium bg-red-500 text-white hover:text-white hover:bg-red-600 hover:underline mt-4 lg:mt-0 w-full lg:w-auto"
           >
             Subscribe
           </button>
