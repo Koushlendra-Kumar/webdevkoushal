@@ -1,4 +1,8 @@
 import React from "react";
+import linkedinLogo from "../images/linkedin.png";
+import whatsappLogo from "../images/whatsapp.png";
+import gmailLogo from "../images/gmail.png";
+import githubLogo from "../images/github.png";
 
 function Contact() {
   return (
@@ -12,40 +16,28 @@ function Contact() {
           rel="noreferrer"
           target="_blank"
         >
-          <img
-            className="h-12 w-12 m-6"
-            src="/images/linkedin.png"
-            alt="LinkedIn"
-          />
+          <img className="h-12 w-12 m-6" src={linkedinLogo} alt="LinkedIn" />
         </a>
         <a
           href="https://wa.me/message/HYST3TXPD6A6N1"
           rel="noreferrer"
           target="_blank"
         >
-          <img
-            className="h-12 w-12 m-6"
-            src="/images/whatsapp.png"
-            alt="WhatsApp"
-          />
+          <img className="h-12 w-12 m-6" src={whatsappLogo} alt="WhatsApp" />
         </a>
         <a
           href="mailto:code.koushlendra+portfolio@gmail.com"
           rel="noreferrer"
           target="_blank"
         >
-          <img className="h-12 w-12 m-6" src="/images/gmail.png" alt="Gmail" />
+          <img className="h-12 w-12 m-6" src={gmailLogo} alt="Gmail" />
         </a>
         <a
           href="https://github.com/Koushlendra-Kumar"
           rel="noreferrer"
           target="_blank"
         >
-          <img
-            className="h-12 w-12 m-6"
-            src="/images/github.png"
-            alt="Github"
-          />
+          <img className="h-12 w-12 m-6" src={githubLogo} alt="Github" />
         </a>
       </div>
     </div>
