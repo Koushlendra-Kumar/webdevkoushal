@@ -1,5 +1,5 @@
 # My Portfolio Site
-[See it live here](https://koushlendra-kumar.github.io/webdevkoushal/)
+[See it live here](https://webdevkoushal.vercel.app/)
 
 <p align="center">
     <img src='./public/screenshot.png' alt='Web page preview' width='600' />
