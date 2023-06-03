@@ -1,7 +1,12 @@
+import { useState } from "react";
 import Popup from "reactjs-popup";
 import Newsletter from "./Newsletter";
 
 function Header() {
+  const [menu, setMenu] = useState(false);
+  function toggle() {
+    setMenu(!menu)
+  }
   return (
     <div>
       <nav className="flex items-center justify-between flex-wrap bg-white shadow-lg p-6">
@@ -9,7 +14,7 @@ function Header() {
           WDK
         </div>
         <div className="block lg:hidden">
-          <button className="flex items-center px-3 py-2 border rounded text-black border-black hover:text-white hover:bg-black hover:border-white">
+          <button className="flex items-center px-3 py-2 border rounded text-black border-black hover:text-white hover:bg-blue-500 hover:border-white" onClick={toggle}>
             <svg
               className="fill-current h-3 w-3"
               viewBox="0 0 20 20"
@@ -20,7 +25,7 @@ function Header() {
             </svg>
           </button>
         </div>
-        <div className="w-full block lg:flex lg:items-center lg:w-auto">
+        <div className={`w-full ${menu ? 'block': 'hidden'}  lg:flex lg:items-center lg:w-auto`}>
           <div className="text-sm lg:flex-grow">
             <a
               href="#responsive-header"
