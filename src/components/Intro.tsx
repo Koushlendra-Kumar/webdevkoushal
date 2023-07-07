@@ -8,9 +8,8 @@ import expressLogo from "../images/express.png";
 function Intro() {
   return (
     <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20 lg:py-24">
-      <h1 className="text-slate-900 font-extrabold text-4xl sm:text-5xl lg:text-6xl tracking-tight text-center mb-12">
-        Hi, I'm Koushal,
-        <br className="hidden sm:inline" />a web developer
+      <h1 className="text-slate-900 font-bold text-2xl sm:text-5xl lg:text-6xl tracking-tight text-center mb-12">
+        Hello! I'm <span>Koushal</span>. <span className="text-green-500">&#x1F44B;</span>
       </h1>
       <div className="flex flex-wrap justify-center mb-8">
         <img
