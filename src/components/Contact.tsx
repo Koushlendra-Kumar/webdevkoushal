@@ -26,7 +26,7 @@ function Contact() {
           <img className="h-12 w-12 m-6" src={whatsappLogo} alt="WhatsApp" />
         </a>
         <a
-          href="mailto:code.koushlendra+portfolio@gmail.com"
+          href="mailto:webdev.koushal+portfolio@gmail.com"
           rel="noreferrer"
           target="_blank"
         >
