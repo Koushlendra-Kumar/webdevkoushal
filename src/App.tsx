@@ -1,35 +1,33 @@
-import React from "react";
 import Header from "./components/Header";
 import Project from "./components/Project";
 import Intro from "./components/Intro";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import portfolioImage from "./images/portfolio.png";
 import membersImage from "./images/members.png";
 import projectUI from "./images/projectUI.png";
 import Chat from "./components/Chat";
 
 const Projects = [
   {
-    title: "My Portfolio",
-    image: portfolioImage,
-    description: "My MERN stack portfolio.",
-    sourceLink: "https://github.com/Koushlendra-Kumar/portfolio-site",
-    previewLink: "https://koushlendra-kumar.github.io/webdevkoushal/",
+    title: "Shopping Cart",
+    image: projectUI,
+    description: "React shopping cart app",
+    sourceLink: "https://github.com/Koushlendra-Kumar/shopping-cart",
+    previewLink: "https://global-shopping-cart.netlify.app/",
   },
   {
     title: "Community Club app",
     image: membersImage,
     description: "User authentication web app.",
     sourceLink: "https://github.com/Koushlendra-Kumar/Members-only",
-    previewLink: "https://members-only-production-ad01.up.railway.app/",
+    previewLink: "#",
   },
   {
     title: "modern Furniture",
     image: projectUI,
     description: "Api to perform CRUD operations.",
     sourceLink: "https://github.com/Koushlendra-Kumar/Modern-furniture",
-    previewLink: "https://modern-furniture-production.up.railway.app/",
+    previewLink: "#",
   },
 ];
 
